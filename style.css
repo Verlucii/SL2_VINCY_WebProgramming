@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+}
+.box1{
+    display: flex;
+    width: 1300px;
+    height: 800px;
+    flex-direction: column;
+    background-color: #E5EDEB;
+    text-align: center;
+    
+}
+.button{
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.login1 {
+    background-color: #99D6ED; 
+    border: none;
+    padding: 0px 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 50px;
+}
+.login1>a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.register1{
+    background-color: #c6ed9a; 
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+}
+.register1>a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.boxRegister{
+    width: 1300px;
+    height: 800px;
+   background-color: #99D6ED;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    margin: 25px 0px;
+}
+.tag{
+    margin: 0px 15px;
+    width: 100px;
+    text-align: left;
+}
+
+.Form{
+    display: flex;
+    flex-direction: row;
+}
+.boxForm{
+    margin: 0px 40px;
+}
+.BtnForm{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 195px;
+    gap: 25px;
+}
+.BtnBack{
+    background-color: #fbd7ac;
+    padding: 3px 35px;
+}
+.BtnSubmit{
+    background-color: #aef59e;
+    padding: 3px 35px;
+}
+.ListOfError{
+    width: 1300px;
+    height: 800px;
+    background-color: #FAA0A0;
+}
+
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 800px;
+    background-color: #FBFCAC;
+    text-align: center;
+}
+.Title{
+    display: flex;
+    margin: 50px auto;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background-color: #ACE6FC;
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+}
+.cardLogin{
+    display: flex;
+    margin: 20px auto;
+}
+.tagLogin{
+    margin: 0px 20px;
+}
+.BoxBtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.BtnLogin{
+    background-color: #B0F3A4;
+    padding: 5px 20px;
+}
+.BtnBack2{
+    background-color:#F6D8B6;
+    padding: 5px 20px;
+}
+
+.HomeHeader{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 65px;
+    gap: 330px;
+    background-color: #FBFCAC;
+}
+
+.TitleHeader{
+    margin: 0px 30px;
+}
+.ButtonHeader1{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto 30px;
+    gap: 15px;
+}
+.ButtonHeader1>a{
+    text-decoration: none;
+    color: black;
+}
+.ButtonHeaderHome>a{
+    color: black;
+}
+.ButtonHeader2{
+    margin: auto 30px;
+    gap: 15px;
+}
+.ButtonHeader2>a{
+    text-decoration: none;
+    color: black;
+}
+.HomeBody{
+    background-color: #CAD1FF;
+    width: 1300px;
+    height: 735px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.HomeBodyContent{
+    display: flex;
+    flex-direction: column;
+}
+.Form2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px 600px 0px;
+    justify-content: center;
+}
+.image>img{
+    height: 120px;
+    width: 120px;
+}
